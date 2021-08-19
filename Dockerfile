@@ -1,4 +1,5 @@
 FROM nginx
 
-#RUN docker run -d -it --name --name project --mount type=bind,source="$(pwd)",target=/app nginx
+EXPOSE 80
+
 COPY html /usr/share/nginx/html
